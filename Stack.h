@@ -18,8 +18,9 @@ typedef struct SinglyNode SinglyNode;
 typedef struct Stack Stack;
 
 Stack * create_stack(void);
-unsigned is_empty(Stack *);
+unsigned is_empty_stack(Stack *);
 void push(Stack *, int);
 int pop(Stack *);
+void print_stack(Stack *);
 
 #endif //UNTITLED_STACK_H

@@ -1,0 +1,5 @@
+# ninja log v5
+5	61	6860344281088856	CMakeFiles/untitled.dir/node.c.obj	e59fcd303a1d0033
+7	86	6860361087610999	CMakeFiles/untitled.dir/main.c.obj	acb20cd13319ba7
+95	188	6860361088592418	untitled.exe	e5805b58bd785e3f
+3	95	6860361087701164	CMakeFiles/untitled.dir/DoublyLinkedList.c.obj	6341f5bad8c94c30

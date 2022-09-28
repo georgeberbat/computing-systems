@@ -55,12 +55,6 @@ build CMakeFiles/untitled.dir/main.c.obj: C_COMPILER__untitled_Debug C$:/Users/i
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled.dir/node.c.obj: C_COMPILER__untitled_Debug C$:/Users/invar/CLionProjects/untitled/cmake-build-debug/node.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\node.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
 build CMakeFiles/untitled.dir/DoublyLinkedList.c.obj: C_COMPILER__untitled_Debug C$:/Users/invar/CLionProjects/untitled/DoublyLinkedList.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles\untitled.dir\DoublyLinkedList.c.obj.d
   FLAGS = -g -std=gnu99
@@ -93,7 +87,7 @@ build CMakeFiles/untitled.dir/Coins.c.obj: C_COMPILER__untitled_Debug C$:/Users/
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/node.c.obj CMakeFiles/untitled.dir/DoublyLinkedList.c.obj CMakeFiles/untitled.dir/Stack.c.obj CMakeFiles/untitled.dir/Queue.c.obj CMakeFiles/untitled.dir/Coins.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/DoublyLinkedList.c.obj CMakeFiles/untitled.dir/Stack.c.obj CMakeFiles/untitled.dir/Queue.c.obj CMakeFiles/untitled.dir/Coins.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir

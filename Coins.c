@@ -52,13 +52,6 @@ void print_coins(int coins_used[], int money) {
     }
 }
 
-void print_array(const int arr[], int size) {
-
-    for (int i = 0; i < size; i++) {
-        printf("%d ", arr[i]);
-    }
-}
-
 void solve_coins (int amnt) {
     printf("\n\nDEMO COINS: \n");
     int clist[5] = {1,2,5,7,10};
@@ -69,7 +62,4 @@ void solve_coins (int amnt) {
     printf(" coins.");
     printf(" They are: ");
     print_coins(coinsUsed,amnt);
-    printf("\n");
-    printf("The used list is as follows: ");
-    print_array(coinsUsed, amnt+1);
 }

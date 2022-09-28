@@ -3,4 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled main.c cmake-build-debug/node.c DoublyLinkedList.c DoublyLinkedList.h Stack.h Stack.c Queue.h Queue.c Coins.c Coins.h)
+add_executable(untitled main.c DoublyLinkedList.c DoublyLinkedList.h Stack.h Stack.c Queue.h Queue.c Coins.c Coins.h)
